@@ -22,7 +22,7 @@ document.querySelectorAll("button")[4].onclick = function(){
     document.querySelector("textarea").value="";
 }
 
-document.getElementById("delete-clr").onclick = function() {
+document.getElementById("delete-clr-btn").onclick = function() {
     document.querySelector("ol").innerHTML = "";
 }
 
